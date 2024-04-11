@@ -1,76 +1,141 @@
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\usepackage[left=0.5in, top=0.5in, right=0.5in, bottom=0.5in]{geometry} % Document margins
+\newcommand{\tab}[1]{\vspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\vspace{0em}\rlap{#1}}
+
 \name{Alexis Fraudita} % Your name
 % You can merge both of these into a single line, if you do not have a website.
-\address{+58(412) 111-5669  \\ Caracas, Venezuela}
-\address{\href{mailto:cuatroalejandro@gmail.com}{cuatroalejandro@gmail.com} \\ 
-\href{https://linkedin.com/in/alexis-fraudita}{https://linkedin.com/in/alexis-fraudita} \\ 
-\href{https://github.com/Alexfm101}{https://github.com/Alexfm101}}  %
+\address{
+    fraumalex@gmail.com \\ 
+    Caracas, Venezuela \\
+    linkedin.com/in/alefram/ \\
+}
 
 \begin{document}
+
+% \begin{rSummary} %HABILIDADES
+
+% Senior Software Engineer at Google with over 5 years of experience leading teams
+
+% \end{rSummary}
+
 
 %----------------------------------------------------------------------------------------
 % TECHINICAL STRENGTHS
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Skills} %HABILIDADES
+% Ingles-------------------------------------------------
+% \begin{rSection}{Skills} %HABILIDADES
+
+%     % english
+%     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l  }
+%         Languages: &  Python, C/C++, Javascript/Typescript, PHP, Goland.
+%     \end{tabular}
+
+%     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l  }
+%         Technologies: & Git, Linux, Digital Ocean, MuJoCo, ReactJS, Laravel, Pytorch, Docker, Arduino.
+%     \end{tabular}
+% \end{rSection}
+
+% Español---------------------------------------------------
+\begin{rSection}{Habilidades} %HABILIDADES
 
     % english
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l  }
-        Languages: &  Python, C/C++, MATLAB, Javascript
+        Lenguajes: &  Python, C/C++, Javascript/Typescript, PHP, Goland.
     \end{tabular}
 
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l  }
-        Technologies: & Git, Numpy, Matplotlib, Keras, ReactJS, NextJS, 
-        SQL, Arduino, Docker, flask  \\ 
+        Tecnología: & Git, Linux, Digital Ocean, MuJoCo, ReactJS, Laravel, Pytorch, Docker, Arduino.
     \end{tabular}
-
 \end{rSection}
-
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-% TODO:mejorar los items con frases concretas usando el ejemplo.
-\begin{rSection}{Experience} %EXPERIENCIA
 
-    \textbf{Central University of Venezuela} \hfill Feb 2019 - Present\\
-    Assistant Professor \hfill \textit{Caracas, VE}
-    \begin{itemize}
+% Ingles -----------------------------
+% \begin{rSection}{Work Experience} %EXPERIENCE
 
-        \item Supervision of the Digital Systems and Microprocessors 
-        laboratories helping students in the study of microcontroller 
-        programming and digital circuit design like DC motor controller and 
-        Basic Microcontroller Arquitecture. 
+% \textbf{TAE control}, Caracas, VE $\mid$ \textit{Software Developer} \hfill Dec 2022 -Present\\
 
-    \end{itemize}
+% \begin{itemize}
+%     \item Implemented hardware monitoring system for a Laravel package in PHP to measure CPU, RAM, and disk memory usage on servers, resulting in the ability to measure over 70,000 data points during 24 hours of server usage.
+    
+%     \item Implemented a self-update system using GoLand and TypeScript, resulting in a 30\% reduction of user installation time, to enhance the Linux development experience in our debugging product.
+    
+%     \item Maintained documentation of our Laravel application monitoring tool for over a 1000 users, resulting in effective support and clarity for user interactions.
+% \end{itemize}
+
+% español ----------------------------------------
+\begin{rSection}{Experiencia} %EXPERIENCIA
+
+\textbf{TAE control}, Caracas, VE $\mid$ \textit{Desarrollador de software} \hfill Dic 2022 -Presente\\
+
+\begin{itemize}
+    \item Implementé un sistema de actualización automatica utilizando GoLand y TypeScript, lo que resultó en una reducción del 30\% en el tiempo de instalación de los usuarios, para mejorar la experiencia de desarrollo en Linux en nuestro producto de depuración.
+    
+    \item Implementé un sistema de monitoreo de hardware para un paquete de Laravel en PHP para medir el uso de CPU, RAM y memoria en disco en servidores, lo que permite medir más de 70,000 puntos de datos durante 24 horas de uso en servidores.
+    
+    \item Mantengo la documentación de nuestra herramienta de monitoreo de aplicaciones Laravel para más de mil usuarios, lo que resultó en un soporte efectivo y claridad en las interacciones de los usuarios.
+\end{itemize}
+% ////////////////////////////////////////////////////////////////////////////////////
+
+% english -------------------------------------------
+% \textbf{Bloomcker}, Caracas VE $\mid$ \textit{Software Developer} \hfill Feb 2020 - Jan 2022
+
+% \begin{itemize}
+%     \item Participated in the development of a UAV prototype for monitoring transmission lines, contributing with a simulation model based on Gazebo and ROS with 4 motors and 6 sensors, resulting in the verification of a PID-based control system.
+    
+%     \item Enhanced PDF generation system for 14 types on a prominent notarial platform in Peru by developing a dynamic ReactJS component using JavaScript, resulting in improved efficiency and functionality for document creation and processing.
+% \end{itemize}
+
+% español -------------------------------------------
+\textbf{Bloomcker}, Caracas VE $\mid$ \textit{Desarrollador de software} \hfill Feb 2020 - Ene 2022
+
+\begin{itemize}
+    \item Participé en el desarrollo de un prototipo de UAV para monitorear líneas de transmisión, contribuyendo con un modelo de simulación basado en Gazebo y ROS, lo que resultó en la verificación de un sistema de control basado en un PID.
+    
+    \item Mejoré el sistema de generación de PDF para 14 tipos en una destacada plataforma notarial en Perú mediante el desarrollo de un componente dinámico de ReactJS utilizando JavaScript, lo que resultó en una mayor eficiencia y funcionalidad para la creación y procesamiento de documentos.
+\end{itemize}
+% /////////////////////////////////////////////////////////////////////////////////////////
+
+% Ingles-----------------------------------------------------
+% \textbf{Central University of Venezuela}, Caracas VE $\mid$ \textit{Assistant Professor} \hfill Feb 2019 - Feb 2023   
+
+% \begin{itemize}
+%     \item Developed a desktop application to simulate sequential and combinational circuits, utilizing a PIC45k50 microcontroller and PyQt5 for running simulations, resulting in approximately 60\% reduction in component usage due to the lack of digital components in the lab.
+    
+%     \item Enabled over 40 students to continue their laboratory practices virtually during the COVID-19 contingency by designing 3 types of simulated practices using Proteus software and the PIC45k50 microcontroller, resulting in effective continuation of hands-on learning despite the challenges posed by the pandemic.
+% \end{itemize}
+
+% Español----------------------------------------------------------
+\textbf{Universidad Central de Venezuela}, Caracas VE $\mid$ \textit{Profesor asistente} \hfill Feb 2019 - Feb 2023   
+
+\begin{itemize}
+    \item Desarrollé una aplicación de escritorio para simular circuitos secuenciales y combinacionales, utilizando un microcontrolador PIC45k50 y PyQt5 para ejecutar simulaciones, lo que resultó en una reducción aproximada del 60\% en el uso de componentes debido a la falta de componentes digitales en el laboratorio.
+    
+    \item Permití que más de 40 estudiantes continuaran sus prácticas de laboratorio de manera virtual durante la contingencia del COVID-19, diseñando 3 tipos de prácticas simuladas utilizando el software Proteus y el microcontrolador PIC45k50.
+\end{itemize}
+% /////////////////////////////////////////////////////////////////////////////////////
+
+% Ingles--------------------------------------------------
+% \textbf{TypeIQS}, Caracas, VE $\mid$ \textit{Electrical Engineer Intern} \hfill Aug 2019 - Sep 2019
+
+% \begin{itemize}
+%     \item Developed an intuitive SCADA system interface for home photovoltaic systems, enabling real-time monitoring of 12 data points by utilizing Mango Automation, AngularJS, and Illustrator.
+% \end{itemize}
+
+% Español---------------------------------------------------
+\textbf{TypeIQS}, Caracas, VE $\mid$ \textit{Pasante} \hfill Ago 2019 - Sep 2019
+
+\begin{itemize}
+    \item Desarrollé una interfaz intuitiva de sistema SCADA para sistemas fotovoltaicos domésticos, permitiendo el monitoreo en tiempo real de 12 puntos de datos utilizando Mango Automation, AngularJS e Illustrator.
+\end{itemize}
 
 
-    \textbf{SwimApp} \hfill Jul 2020 - Nov 2020\\
-    Software Developer \hfill \textit{Remote}
-    \begin{itemize}
-
-        \item I was part of the development Team where I worked on Profile site,
-        Home and Message system, to connect students from Nyu and Columbia in 
-        public. We use ReactJs, Tailwindcss, Flutter and Laravel for the 
-        development of the application.
-
-    \end{itemize}
-
-    \textbf{TypeIQS} \hfill Aug 2019 - Sep 2019\\
-    Electrical engineer Intern \hfill \textit{Caracas, VE}
-    \begin{itemize}
-
-        \item Development of a prototype of a SCADA system interface for a 
-        photovoltaic system as a MVP project using Mango Automation and 
-        Angularjs.
-
-    \end{itemize}
-
-     % ejemplo
+    %  ejemplo
     % \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
     % Company Name \hfill \textit{San Francisco, CA}
     %  \begin{itemize}
@@ -83,41 +148,58 @@
 
 \end{rSection}
 
-
 %----------------------------------------------------------------------------------------
-%   PROJECTS SECTION
+%	PERSONAL PROJECTS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{PROJECTS} 
+% Ingles---------------------------------------------
+% \begin{rSection}{Projects}
+%     \textbf{TEG} $\mid$ Central University of Venezuela \hfill Mar 2022 - Sep 2022
+    
+%     \begin{itemize}
+%         \item Developed a reinforcement learning environment to train AI agents to control the end effector position in a robot arm, by utilizing Python, MuJoCo, and OpenAI Gym.
 
+%         \item Implemented a DDPG algorithm using Python and PyTorch to test the environment, resulting in an error rate of 4\%.
+%     \end{itemize}
+% \end{rSection}
+
+% Español-----------------------------------------
+\begin{rSection}{Proyectos}
+    \textbf{TEG} $\mid$ Universidad Central De Venezuela \hfill Mar 2022 - Sep 2022
+    
     \begin{itemize}
-        \item \textbf{TEG:} Reinforcement Learning enviroments for develop 
-        smart controllers in robot arms. 
+        \item Desarrollé un entorno de aprendizaje por refuerzo para entrenar agentes de IA en el control de la posición del efector final en un brazo robótico, utilizando Python, MuJoCo y OpenAI Gym.
 
-        \item \textbf{AUTOMATA:} Development of a Desktop app for control the 
-        MEPIC45k50 development board, for implement sequential logic and 
-        combinational logic without programming the board.
-
+        \item Implementé un algoritmo DDPG usando Python y PyTorch para probar el entorno, resultando en una tasa de error del 4\%.
     \end{itemize}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
+% Ingles------------------------------------------
+% \begin{rSection}{Education} %EDUCACIÓN
+%     \textbf{Central University of Venezuela}\\
+%     B.S. Electrical Engineer, 2022
 
-\begin{rSection}{Education} %EDUCACIÓN
+%     \textbf{Central University of Venezuela}\\
+%     C++ level 1 Course, 2018
 
-    \textbf{Central University of Venezuela}, B.S Electrical Engineer 
-    \hfill {Sep 2022} \\ \hfill{Caracas,VE}
+    
+% \end{rSection}
 
-    \begin{itemize}
-        \item \textbf{Courses:} Calculus, Probability, Numerical Calculus, 
-        Linear systems analysis, Control Theory.
-
-    \end{itemize}
-
+% Español--------------------------------------------
+\begin{rSection}{Educación} %EDUCACIÓN
+    \textbf{Universidad Central de Venezuela}\\
+        Ingeniero electricista, 2022
 \end{rSection}
 
+% %----------------------------------------------------------------------------------------
+% %	WHATEVER SECTION (OPTIONAL)
+% %----------------------------------------------------------------------------------------
 
+% \begin{rSection}{Awards} %rRECONOCIMIENTOS
+    
+% \end{rSection}
 
 \end{document}
